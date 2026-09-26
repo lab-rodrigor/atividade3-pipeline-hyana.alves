@@ -62,5 +62,5 @@ jobs:
 
       - name: Conferir que subiu
         run: |
-          curl --fail --silent --showS-error \
+          curl --fail --silent --show-error \
             http://gr.lab.ayty.org:${{ env.PORTA }}/
